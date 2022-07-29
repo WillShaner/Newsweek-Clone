@@ -1,0 +1,63 @@
+.bullet-list{
+padding: 30px 15px;
+}
+.headlines-title{
+  text-transform: uppercase;
+  color: blue;
+  padding-bottom: 30px;
+}
+.bullet{
+  font-weight: 600;
+  font-size: larger;
+  line-height: 1.5em;
+  text-align: left;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #f2f2f2;
+  position: relative;
+}
+.bullet li:not(:last-child){
+  list-style-position: inside;
+  list-style-type: square;
+  color: blue;
+}
+.bullet:last-child{
+  list-style: none;
+}
+.bullet-a{
+  line-height: 1.5em;
+  color: black;
+}
+.bullet-a:hover{
+  color: black;
+}
+@media only screen and (max-width: 992px){
+  .bullet {
+    text-align: center;
+  }
+  .headlines-title {
+    text-align: center;
+    font-size: 22px;
+  }
+  .bullet-list{
+    background-color: rgb(251, 251, 251);
+  }
+}
+.see-all {
+  display: block;
+  list-style: none;
+}
+.see-all-headlines {
+  background-color: #e5e5e5;
+  color: #757575;
+  font-size: 16px;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+@media only screen and (min-width: 1200px){
+  .headlines-title{
+    font-size: 22px;
+  }
+}
